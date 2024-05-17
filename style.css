@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    
+   
+
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:50px;
+}
+h1{
+    text-align:center ;
+    margin-top: 25px;
+}
+.container{
+height: 350px;
+width: 300px;
+background-color: rgb(246, 94, 142);
+display: grid;
+place-items: center;
+border-radius: 5px;
+}
+.btns{
+    background-color: black;
+    padding: 12px 25px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+    box-shadow: 0px 3px 15px rgb(236, 236, 240);
+}
+.inputField{
+    width: 100%;
+display: flex;
+justify-content: left;
+margin-top: 10px;
+  
+   
+    gap: 0;
+}
+.inputField button{
+    padding: 12px 20px;
+       background-color: rgb(250, 5, 107);
+    border: none;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 15px rgba(240, 242, 245, 0.5);
+  
+
+}
+.inputField input{
+    padding: 12px 20px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 15px;
+}
+#eql{
+    background-color: rgb(250, 5, 107);
+}
